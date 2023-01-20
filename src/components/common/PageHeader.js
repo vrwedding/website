@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
 const PageHeader = ({ title, desc, integration, blogtags }) => {
   return (
@@ -53,7 +53,7 @@ const PageHeader = ({ title, desc, integration, blogtags }) => {
           <div className="container">
             <div
               className={`row ${
-                blogtags ? 'justify-content-center text-center' : ''
+                blogtags ? "justify-content-center text-center" : ""
               }`}
             >
               <div className="col-lg-8 col-md-12">
@@ -61,66 +61,6 @@ const PageHeader = ({ title, desc, integration, blogtags }) => {
                 <p className="lead">{desc}</p>
               </div>
             </div>
-            {blogtags ? (
-              <div className="row justify-content-center text-center">
-                <div className="col-xl-8">
-                  <Link href="#">
-                    <a className="btn btn-soft-primary btn-pill btn-sm m-2">
-                      Marketing
-                    </a>
-                  </Link>
-                  <Link href="#">
-                    <a className="btn btn-soft-primary btn-pill btn-sm m-2">
-                      {' '}
-                      Sales
-                    </a>
-                  </Link>
-                  <Link href="#">
-                    <a className="btn btn-soft-primary btn-pill btn-sm m-2">
-                      {' '}
-                      Design
-                    </a>
-                  </Link>
-                  <Link href="#">
-                    <a className="btn btn-soft-primary btn-pill btn-sm m-2">
-                      {' '}
-                      Development
-                    </a>
-                  </Link>
-                  <Link href="#">
-                    <a className="btn btn-soft-primary btn-pill btn-sm m-2">
-                      {' '}
-                      Product Design
-                    </a>
-                  </Link>
-                  <Link href="#">
-                    <a className="btn btn-soft-primary btn-pill btn-sm m-2">
-                      {' '}
-                      Customers
-                    </a>
-                  </Link>
-                  <Link href="#">
-                    <a className="btn btn-soft-primary btn-pill btn-sm m-2">
-                      {' '}
-                      Agency
-                    </a>
-                  </Link>
-                  <Link href="#">
-                    <a className="btn btn-soft-primary btn-pill btn-sm m-2">
-                      {' '}
-                      Investors
-                    </a>
-                  </Link>
-                  <Link href="#">
-                    <a className="btn btn-soft-primary btn-pill btn-sm m-2">
-                      Research
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            ) : (
-              ''
-            )}
             <div className="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light right-5"></div>
           </div>
         </section>

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import Link from 'next/link';
-import ModalVideo from 'react-modal-video';
+import React, { useState } from "react";
+import Link from "next/link";
+import ModalVideo from "react-modal-video";
 export default function HeroFifteen() {
   const [isOpen, setOpen] = useState(false);
   return (
@@ -15,28 +15,19 @@ export default function HeroFifteen() {
           <div className="row align-items-md-center">
             <div className="col-lg-6">
               <div className="event-hero-content">
-                <span className="text-pink fw-bold">
-                  22- 23 November 2022 | ExCeL London
-                </span>
+                <span className="text-pink fw-bold">27-29 Feb 2023 | Goa</span>
                 <h1 className="fw-bold display-5">
-                  <span className="display-2 fw-bold">Design</span> <br />
-                  Conference-2022
+                  <span className="display-2 fw-bold">VR Wedding</span> <br />
+                  Workshop
                 </h1>
-                <p className="mb-4">
-                  Intrinsicly drive high standards in scenarios and stand-alone
-                  applications assertively streamline stand-alone alignments via
-                  resource maximizing core.
-                </p>
+                Virtual Reality or 360-degree movies are the most recent
+                invention in the wedding market. Join us to learn about business
+                opportunities, network, and receive training in Virtual Reality
+                wedding coverage.
                 <div className="action-btns mt-4 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
-                  <ModalVideo
-                    channel="youtube"
-                    isOpen={isOpen}
-                    videoId="hAP2QF--2Dg"
-                    onClose={() => setOpen(false)}
-                  />
                   <Link href="/signup">
                     <a className="btn btn-primary bg-pink me-3 mb-3">
-                      Register Now
+                      Book Seat
                     </a>
                   </Link>
                   <Link href="/request-for-demo">
@@ -54,27 +45,9 @@ export default function HeroFifteen() {
                   className="img-fluid"
                   alt="Event"
                 />
-                <a
-                  href="#!"
-                  className="popup-youtube"
-                  onClick={() => setOpen(true)}
-                >
-                  <i className="fas fa-play"></i>
-                </a>
               </div>
             </div>
           </div>
-          <ul className="list-unstyled ev-hero-shape d-none d-xl-block m-0">
-            <li>
-              <img src="/event/star.png" alt="star" />
-            </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li>
-              <img src="/event/square.png" alt="shape" />
-            </li>
-          </ul>
         </div>
       </div>
     </section>

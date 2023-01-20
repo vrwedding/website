@@ -11,9 +11,12 @@ export default function EventSession() {
             <div className="col-lg-6">
               <div className="text-center ev-schedule-btn mb-5">
                 <span className="text-pink fw-bold">
-                  Aug 23rd, 24th, & 25th 2022
+                  27th & 28th Feburary, 2023
                 </span>
-                <h2 className="mb-4">Our Conferenc Schedule</h2>
+                <h2 className="mb-4">VR Wedding Workshop</h2>
+                <h5 className="mb-4">
+                  Includes are the workshop, lodging, meals, and beer.
+                </h5>
                 <ul
                   className="nav list-unstyled d-flex justify-content-center"
                   id="pills-tab"
@@ -47,34 +50,6 @@ export default function EventSession() {
                       Day-2
                     </button>
                   </li>
-                  <li className="nav-item mb-3 mb-lg-0" role="presentation">
-                    <button
-                      className="nav-link"
-                      id="pills-day3-tab"
-                      data-bs-toggle="pill"
-                      data-bs-target="#pills-day3"
-                      type="button"
-                      role="tab"
-                      aria-controls="pills-day3"
-                      aria-selected="false"
-                    >
-                      Day-3
-                    </button>
-                  </li>
-                  <li className="nav-item mb-3 mb-lg-0" role="presentation">
-                    <button
-                      className="nav-link"
-                      id="pills-day4-tab"
-                      data-bs-toggle="pill"
-                      data-bs-target="#pills-day4"
-                      type="button"
-                      role="tab"
-                      aria-controls="pills-day4"
-                      aria-selected="false"
-                    >
-                      Day-4
-                    </button>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -97,93 +72,25 @@ export default function EventSession() {
                             alt="speaker"
                             className="mb-3"
                           />
-                          <h5 className="h6 m-0">Thorsten Gerber</h5>
-                          <span className="small">Creative Director</span>
+                          <h5 className="h6 m-0">Gaurav Mehta</h5>
+                          <span className="small">Techology Expert</span>
                         </div>
                       </div>
                       <div className="col-lg-9">
                         <div className="single-ev px-lg-4">
-                          <div className="d-lg-flex mb-2">
-                            <div className="date pe-3 small text-muted">
-                              <i className="pe-1">
-                                <FiClock />
-                              </i>
-                              <span>Aug 5, 2022</span>
-                            </div>
-                            <div className="location small text-muted">
-                              <i className="pe-1">
-                                <FiMapPin />
-                              </i>
-                              <span>Time Square , New York</span>
-                            </div>
-                          </div>
-                          <h5 className="mb-3 h6">Registration & Breakfast</h5>
-                          <p className="mb-3">
-                            Authoritatively orchestrate performance based human
-                            capital for high standards in materials.
-                            Interactively fabricate timely ideas after premier
-                            opportunitiesObjectively based human capital
-                            implement.
-                          </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="single-eve-session py-5 rounded px-4 px-lg-0 mb-4">
-                    <div className="row align-items-center">
-                      <div className="col-lg-3">
-                        <div className="text-lg-center speaker-info mb-3 mb-lg-0 py-3 md-py-0">
-                          <img
-                            src="/event/sp-2.png"
-                            alt="speaker"
-                            className="mb-3"
-                          />
-                          <h5 className="h6 m-0">Phillipp Wannemaker</h5>
-                          <span className="small">Creative Director</span>
-                        </div>
-                      </div>
-                      <div className="col-lg-9">
-                        <div className="single-ev px-lg-4">
-                          <div className="d-lg-flex mb-2">
-                            <div className="date pe-3 small text-muted">
-                              <i className="pe-1">
-                                <FiClock />
-                              </i>
-                              <span>Aug 5, 2022</span>
-                            </div>
-                            <div className="location small text-muted">
-                              <i className="pe-1">
-                                <FiMapPin />
-                              </i>
-                              <span>Time Square , New York</span>
-                            </div>
-                          </div>
                           <h5 className="mb-3 h6">
-                            Speech: Marketing Matters!
+                            {" "}
+                            Know VR Industry & Participants over Brunch{" "}
                           </h5>
                           <p className="mb-3">
-                            Authoritatively orchestrate performance based human
-                            capital for high standards in materials.
-                            Interactively fabricate timely ideas after premier
-                            opportunitiesObjectively based human capital
-                            implement.
+                            Over brunch, get to know your fellow workshop
+                            attendees. Hear from an industry expert on Virtual
+                            Reality innovation, growth, commercial
+                            opportunities, and newest advances. Learn how you
+                            may benefit from the Virtual Reality breakthrough in
+                            cinematography, weddings, filmmaking, and other
+                            opportunities.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
-                          </Link>
                         </div>
                       </div>
                     </div>
@@ -197,44 +104,22 @@ export default function EventSession() {
                             alt="speaker"
                             className="mb-3"
                           />
-                          <h5 className="h6 m-0">Sven Diederich</h5>
-                          <span className="small">Creative Director</span>
+                          <h5 className="h6 m-0">Akshay Mehta</h5>
+                          <span className="small">VR Wedding Expert</span>
                         </div>
                       </div>
                       <div className="col-lg-9">
                         <div className="single-ev px-lg-4">
-                          <div className="d-lg-flex mb-2">
-                            <div className="date pe-3 small text-muted">
-                              <i className="pe-1">
-                                <FiClock />
-                              </i>
-                              <span>Aug 5, 2022</span>
-                            </div>
-                            <div className="location small text-muted">
-                              <i className="pe-1">
-                                <FiMapPin />
-                              </i>
-                              <span>Time Square , New York</span>
-                            </div>
-                          </div>
                           <h5 className="mb-3 h6">
-                            Speech: Cultures of Creativity
+                            Virtual Reality Wedding Demo
                           </h5>
                           <p className="mb-3">
-                            Authoritatively orchestrate performance based human
-                            capital for high standards in materials.
-                            Interactively fabricate timely ideas after premier
-                            opportunitiesObjectively based human capital
-                            implement.
+                            Understand how virtual reality works in wedding
+                            industry, value proposition and approach to start
+                            offering services. Learn how to handle virtual
+                            reality technology and camera with hands on
+                            training.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
-                          </Link>
                         </div>
                       </div>
                     </div>
@@ -255,27 +140,15 @@ export default function EventSession() {
                             alt="speaker"
                             className="mb-3"
                           />
-                          <h5 className="h6 m-0">Thorsten Gerber</h5>
-                          <span className="small">Creative Director</span>
+                          <h5 className="h6 m-0">Gaurav Mehta</h5>
+                          <span className="small">Technology Expert</span>
                         </div>
                       </div>
                       <div className="col-lg-9">
                         <div className="single-ev px-lg-4">
-                          <div className="d-lg-flex mb-2">
-                            <div className="date pe-3 small text-muted">
-                              <i className="pe-1">
-                                <FiClock />
-                              </i>
-                              <span>Aug 5, 2022</span>
-                            </div>
-                            <div className="location small text-muted">
-                              <i className="pe-1">
-                                <FiMapPin />
-                              </i>
-                              <span>Time Square , New York</span>
-                            </div>
-                          </div>
-                          <h5 className="mb-3 h6">Registration & Breakfast</h5>
+                          <h5 className="mb-3 h6">
+                            Acquiring Clients & Marketing Approach
+                          </h5>
                           <p className="mb-3">
                             Authoritatively orchestrate performance based human
                             capital for high standards in materials.
@@ -283,14 +156,6 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
-                          </Link>
                         </div>
                       </div>
                     </div>
@@ -304,28 +169,14 @@ export default function EventSession() {
                             alt="speaker"
                             className="mb-3"
                           />
-                          <h5 className="h6 m-0">Phillipp Wannemaker</h5>
-                          <span className="small">Creative Director</span>
+                          <h5 className="h6 m-0">Akshay Mehta</h5>
+                          <span className="small">VR Wedding Expert</span>
                         </div>
                       </div>
                       <div className="col-lg-9">
                         <div className="single-ev px-lg-4">
-                          <div className="d-lg-flex mb-2">
-                            <div className="date pe-3 small text-muted">
-                              <i className="pe-1">
-                                <FiClock />
-                              </i>
-                              <span>Aug 5, 2022</span>
-                            </div>
-                            <div className="location small text-muted">
-                              <i className="pe-1">
-                                <FiMapPin />
-                              </i>
-                              <span>Time Square , New York</span>
-                            </div>
-                          </div>
                           <h5 className="mb-3 h6">
-                            Speech: Marketing Matters!
+                            Wedding Coverage Planning & Blueprint
                           </h5>
                           <p className="mb-3">
                             Authoritatively orchestrate performance based human
@@ -334,14 +185,6 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
-                          </Link>
                         </div>
                       </div>
                     </div>
@@ -361,22 +204,8 @@ export default function EventSession() {
                       </div>
                       <div className="col-lg-9">
                         <div className="single-ev px-lg-4">
-                          <div className="d-lg-flex mb-2">
-                            <div className="date pe-3 small text-muted">
-                              <i className="pe-1">
-                                <FiClock />
-                              </i>
-                              <span>Aug 5, 2022</span>
-                            </div>
-                            <div className="location small text-muted">
-                              <i className="pe-1">
-                                <FiMapPin />
-                              </i>
-                              <span>Time Square , New York</span>
-                            </div>
-                          </div>
                           <h5 className="mb-3 h6">
-                            Speech: Cultures of Creativity
+                            Post Production Pipeline & Publishing
                           </h5>
                           <p className="mb-3">
                             Authoritatively orchestrate performance based human
@@ -385,330 +214,6 @@ export default function EventSession() {
                             opportunitiesObjectively based human capital
                             implement.
                           </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="pills-day3"
-                  role="tabpanel"
-                  aria-labelledby="pills-day3-tab"
-                >
-                  <div className="single-eve-session py-5 rounded px-4 px-lg-0 mb-4">
-                    <div className="row align-items-center">
-                      <div className="col-lg-3">
-                        <div className="text-lg-center speaker-info mb-3 mb-lg-0 py-3 md-py-0">
-                          <img
-                            src="/event/sp-1.png"
-                            alt="speaker"
-                            className="mb-3"
-                          />
-                          <h5 className="h6 m-0">Thorsten Gerber</h5>
-                          <span className="small">Creative Director</span>
-                        </div>
-                      </div>
-                      <div className="col-lg-9">
-                        <div className="single-ev px-lg-4">
-                          <div className="d-lg-flex mb-2">
-                            <div className="date pe-3 small text-muted">
-                              <i className="pe-1">
-                                <FiClock />
-                              </i>
-                              <span>Aug 5, 2022</span>
-                            </div>
-                            <div className="location small text-muted">
-                              <i className="pe-1">
-                                <FiMapPin />
-                              </i>
-                              <span>Time Square , New York</span>
-                            </div>
-                          </div>
-                          <h5 className="mb-3 h6">Registration & Breakfast</h5>
-                          <p className="mb-3">
-                            Authoritatively orchestrate performance based human
-                            capital for high standards in materials.
-                            Interactively fabricate timely ideas after premier
-                            opportunitiesObjectively based human capital
-                            implement.
-                          </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="single-eve-session py-5 rounded px-4 px-lg-0 mb-4">
-                    <div className="row align-items-center">
-                      <div className="col-lg-3">
-                        <div className="text-lg-center speaker-info mb-3 mb-lg-0 py-3 md-py-0">
-                          <img
-                            src="/event/sp-2.png"
-                            alt="speaker"
-                            className="mb-3"
-                          />
-                          <h5 className="h6 m-0">Phillipp Wannemaker</h5>
-                          <span className="small">Creative Director</span>
-                        </div>
-                      </div>
-                      <div className="col-lg-9">
-                        <div className="single-ev px-lg-4">
-                          <div className="d-lg-flex mb-2">
-                            <div className="date pe-3 small text-muted">
-                              <i className="pe-1">
-                                <FiClock />
-                              </i>
-                              <span>Aug 5, 2022</span>
-                            </div>
-                            <div className="location small text-muted">
-                              <i className="pe-1">
-                                <FiMapPin />
-                              </i>
-                              <span>Time Square , New York</span>
-                            </div>
-                          </div>
-                          <h5 className="mb-3 h6">
-                            Speech: Marketing Matters!
-                          </h5>
-                          <p className="mb-3">
-                            Authoritatively orchestrate performance based human
-                            capital for high standards in materials.
-                            Interactively fabricate timely ideas after premier
-                            opportunitiesObjectively based human capital
-                            implement.
-                          </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="single-eve-session py-5 rounded px-4 px-lg-0 mb-4">
-                    <div className="row align-items-center">
-                      <div className="col-lg-3">
-                        <div className="text-lg-center speaker-info mb-3 mb-lg-0 py-3 md-py-0">
-                          <img
-                            src="/event/sp-3.png"
-                            alt="speaker"
-                            className="mb-3"
-                          />
-                          <h5 className="h6 m-0">Sven Diederich</h5>
-                          <span className="small">Creative Director</span>
-                        </div>
-                      </div>
-                      <div className="col-lg-9">
-                        <div className="single-ev px-lg-4">
-                          <div className="d-lg-flex mb-2">
-                            <div className="date pe-3 small text-muted">
-                              <i className="pe-1">
-                                <FiClock />
-                              </i>
-                              <span>Aug 5, 2022</span>
-                            </div>
-                            <div className="location small text-muted">
-                              <i className="pe-1">
-                                <FiMapPin />
-                              </i>
-                              <span>Time Square , New York</span>
-                            </div>
-                          </div>
-                          <h5 className="mb-3 h6">
-                            Speech: Cultures of Creativity
-                          </h5>
-                          <p className="mb-3">
-                            Authoritatively orchestrate performance based human
-                            capital for high standards in materials.
-                            Interactively fabricate timely ideas after premier
-                            opportunitiesObjectively based human capital
-                            implement.
-                          </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="pills-day4"
-                  role="tabpanel"
-                  aria-labelledby="pills-day4-tab"
-                >
-                  <div className="single-eve-session py-5 rounded px-4 px-lg-0 mb-4">
-                    <div className="row align-items-center">
-                      <div className="col-lg-3">
-                        <div className="text-lg-center speaker-info mb-3 mb-lg-0 py-3 md-py-0">
-                          <img
-                            src="/event/sp-1.png"
-                            alt="speaker"
-                            className="mb-3"
-                          />
-                          <h5 className="h6 m-0">Thorsten Gerber</h5>
-                          <span className="small">Creative Director</span>
-                        </div>
-                      </div>
-                      <div className="col-lg-9">
-                        <div className="single-ev px-lg-4">
-                          <div className="d-lg-flex mb-2">
-                            <div className="date pe-3 small text-muted">
-                              <i className="pe-1">
-                                <FiClock />
-                              </i>
-                              <span>Aug 5, 2022</span>
-                            </div>
-                            <div className="location small text-muted">
-                              <i className="pe-1">
-                                <FiMapPin />
-                              </i>
-                              <span>Time Square , New York</span>
-                            </div>
-                          </div>
-                          <h5 className="mb-3 h6">Registration & Breakfast</h5>
-                          <p className="mb-3">
-                            Authoritatively orchestrate performance based human
-                            capital for high standards in materials.
-                            Interactively fabricate timely ideas after premier
-                            opportunitiesObjectively based human capital
-                            implement.
-                          </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="single-eve-session py-5 rounded px-4 px-lg-0 mb-4">
-                    <div className="row align-items-center">
-                      <div className="col-lg-3">
-                        <div className="text-lg-center speaker-info mb-3 mb-lg-0 py-3 md-py-0">
-                          <img
-                            src="/event/sp-2.png"
-                            alt="speaker"
-                            className="mb-3"
-                          />
-                          <h5 className="h6 m-0">Phillipp Wannemaker</h5>
-                          <span className="small">Creative Director</span>
-                        </div>
-                      </div>
-                      <div className="col-lg-9">
-                        <div className="single-ev px-lg-4">
-                          <div className="d-lg-flex mb-2">
-                            <div className="date pe-3 small text-muted">
-                              <i className="pe-1">
-                                <FiClock />
-                              </i>
-                              <span>Aug 5, 2022</span>
-                            </div>
-                            <div className="location small text-muted">
-                              <i className="pe-1">
-                                <FiMapPin />
-                              </i>
-                              <span>Time Square , New York</span>
-                            </div>
-                          </div>
-                          <h5 className="mb-3 h6">
-                            Speech: Marketing Matters!
-                          </h5>
-                          <p className="mb-3">
-                            Authoritatively orchestrate performance based human
-                            capital for high standards in materials.
-                            Interactively fabricate timely ideas after premier
-                            opportunitiesObjectively based human capital
-                            implement.
-                          </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="single-eve-session py-5 rounded px-4 px-lg-0 mb-4">
-                    <div className="row align-items-center">
-                      <div className="col-lg-3">
-                        <div className="text-lg-center speaker-info mb-3 mb-lg-0 py-3 md-py-0">
-                          <img
-                            src="/event/sp-3.png"
-                            alt="speaker"
-                            className="mb-3"
-                          />
-                          <h5 className="h6 m-0">Sven Diederich</h5>
-                          <span className="small">Creative Director</span>
-                        </div>
-                      </div>
-                      <div className="col-lg-9">
-                        <div className="single-ev px-lg-4">
-                          <div className="d-lg-flex mb-2">
-                            <div className="date pe-3 small text-muted">
-                              <i className="pe-1">
-                                <FiClock />
-                              </i>
-                              <span>Aug 5, 2022</span>
-                            </div>
-                            <div className="location small text-muted">
-                              <i className="pe-1">
-                                <FiMapPin />
-                              </i>
-                              <span>Time Square , New York</span>
-                            </div>
-                          </div>
-                          <h5 className="mb-3 h6">
-                            Speech: Cultures of Creativity
-                          </h5>
-                          <p className="mb-3">
-                            Authoritatively orchestrate performance based human
-                            capital for high standards in materials.
-                            Interactively fabricate timely ideas after premier
-                            opportunitiesObjectively based human capital
-                            implement.
-                          </p>
-                          <Link href="/about-us">
-                            <a className="link-with-icon">
-                              More Information
-                              <i>
-                                <FiArrowRight />
-                              </i>
-                            </a>
-                          </Link>
                         </div>
                       </div>
                     </div>

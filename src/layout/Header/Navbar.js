@@ -4,12 +4,6 @@ import Link from "next/link";
 import { HiMenu, HiOutlineX } from "react-icons/hi";
 
 import OffCanvasMenu from "./OffCanvasMenu";
-import {
-  navHomeOne,
-  navHomeTwo,
-  navCompanyLinks,
-  navCompanyPage,
-} from "../../utils/data";
 import dynamic from "next/dynamic";
 
 const Navbar = ({ navDark, classOption }) => {
@@ -84,22 +78,22 @@ const Navbar = ({ navDark, classOption }) => {
                 </Link>
               </li>
               <li>
-                <Link href="services">
+                <Link href="how-it-works">
                   <a className="nav-link">How it works?</a>
                 </Link>
               </li>
               <li>
-                <Link href="pricing">
+                <Link href="training">
                   <a className="nav-link">Training</a>
                 </Link>
               </li>
               <li>
-                <Link href="pricing">
-                  <a className="nav-link">Affiliate</a>
+                <Link href="refferal">
+                  <a className="nav-link">Refferal Opportunity</a>
                 </Link>
               </li>
               <li>
-                <Link href="pricing">
+                <Link href="blogs">
                   <a className="nav-link">Blogs</a>
                 </Link>
               </li>

@@ -1,9 +1,8 @@
-import React from 'react';
-import Image from 'next/image';
-import { FaBezierCurve } from 'react-icons/fa';
-import { FiTruck } from 'react-icons/fi';
-import { RiNodeTree } from 'react-icons/ri';
-import { GrResources } from 'react-icons/gr';
+import React from "react";
+import Image from "next/image";
+import { FaBezierCurve } from "react-icons/fa";
+import { RiNodeTree } from "react-icons/ri";
+import { GrResources } from "react-icons/gr";
 
 const WorkProcessOne = () => {
   return (
@@ -12,12 +11,12 @@ const WorkProcessOne = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-10">
             <div className="section-heading text-center">
-              <h4 className="h5 text-primary">Process</h4>
-              <h2>We Follow Our Work Process</h2>
+              <h2>Simple than Ordering Pizza</h2>
               <p>
-                Enthusiastically engage cross-media leadership skills for
-                alternative experiences. Proactively drive vertical systems than
-                intuitive architectures.
+                We want to reach corner of India, so we have initiated a
+                referral programme. Make Passive income just by referring us.{" "}
+                {""}
+                <b>Minimum of 20,000 INR per introduction.</b>
               </p>
             </div>
           </div>
@@ -26,9 +25,9 @@ const WorkProcessOne = () => {
           <div className="col-lg-5 col-md-12 order-1 order-lg-0">
             <div className="img-wrap">
               <Image
-                width={526}
-                height={621}
-                src="/office-img-1.jpg"
+                width={530}
+                height={580}
+                src="/affiliate.png"
                 alt="work process"
                 className="img-fluid rounded-custom"
               />
@@ -43,28 +42,27 @@ const WorkProcessOne = () => {
                   </i>
                 </div>
                 <div className="icon-content">
-                  <span className="text-primary h6">Step 1</span>
-                  <h3 className="h5 mb-2">Research and Content Planing</h3>
+                  <h3 className="h5 mb-2">Register as Affiliate with Us</h3>
                   <p>
-                    Progressively foster enterprise-wide systems whereas equity
-                    invested web-readiness harness installed base bandwidth.
+                    Express your interest with us and we onboard you to our
+                    refferal network. Once registered, you just have to spread
+                    word.
                   </p>
                 </div>
               </li>
               <li className="d-flex align-items-start mb-4">
                 <div className="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
                   <i className="far fa-3x">
-                    {' '}
+                    {" "}
                     <FaBezierCurve />
                   </i>
                 </div>
                 <div className="icon-content">
-                  <span className="text-primary h6">Step 2</span>
-                  <h3 className="h5 mb-2">Publishing and Execution</h3>
+                  <h3 className="h5 mb-2">Introduce Us</h3>
                   <p>
-                    Dramatically administrate progressive metrics without
-                    error-free globally simplify standardized alignments
-                    plagiarize distributed.
+                    Tell your friends, family, Ex or loved once who is gettings
+                    married. They schedule demo with us for VR Weddings
+                    Offerings.
                   </p>
                 </div>
               </li>
@@ -75,29 +73,10 @@ const WorkProcessOne = () => {
                   </i>
                 </div>
                 <div className="icon-content">
-                  <span className="text-primary h6">Step 3</span>
-                  <h3 className="h5 mb-2">Product Prototyping</h3>
+                  <h3 className="h5 mb-2">Wedding Coverage</h3>
                   <p>
-                    Interactively whiteboard transparent testing procedures
-                    before bricks-and-clicks initiatives administrate
-                    competencies.
-                  </p>
-                </div>
-              </li>
-              <li className="d-flex align-items-start mb-4 mb-lg-0">
-                <div className="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
-                  <i className="far fa-2x">
-                    {' '}
-                    <FiTruck />
-                  </i>
-                </div>
-                <div className="icon-content">
-                  <span className="text-primary h6">Step 4</span>
-                  <h3 className="h5 mb-2">Deliver the Final Product</h3>
-                  <p>
-                    Dramatically plagiarize distributed progressive metrics
-                    without error-free globally simplify standardized
-                    alignments.
+                    We cover wedding in Virtual Reality and you earn minimum of
+                    20,000 INR for introduction. You earning is unlimited.
                   </p>
                 </div>
               </li>

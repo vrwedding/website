@@ -1,8 +1,8 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
-import { ourTeam } from '../../utils/data';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { ourTeam } from "../../utils/data";
 
 const OurTeam = () => {
   return (
@@ -12,11 +12,11 @@ const OurTeam = () => {
           <div className="col-lg-6 col-md-12">
             <div className="section-heading text-center">
               <h5 className="h6 text-primary">Our Team</h5>
-              <h2>The People Behind Quiety</h2>
+              <h2>The People VR Weddings</h2>
               <p>
                 Intrinsicly strategize cutting-edge before interoperable
                 applications incubate extensive expertise through integrated
-                intellectual capital.{' '}
+                intellectual capital.{" "}
               </p>
             </div>
           </div>
@@ -27,44 +27,6 @@ const OurTeam = () => {
               <div className="team-single-wrap mb-5">
                 <div className="team-img rounded-custom">
                   <Image width={306} height={306} src={team.image} alt="team" />
-                  <ul className="list-unstyled team-social-list d-flex flex-column mb-0">
-                    <li className="list-inline-item">
-                      <Link href="#!">
-                        <a>
-                          <i className="fab">
-                            <FaLinkedinIn />
-                          </i>
-                        </a>
-                      </Link>
-                    </li>
-                    <li className="list-inline-item">
-                      <Link href="#!">
-                        <a>
-                          <i className="fab">
-                            <FaTwitter />
-                          </i>
-                        </a>
-                      </Link>
-                    </li>
-                    <li className="list-inline-item">
-                      <Link href="#!">
-                        <a>
-                          <i className="fab">
-                            <FaGithub />
-                          </i>
-                        </a>
-                      </Link>
-                    </li>
-                    <li className="list-inline-item">
-                      <Link href="#!">
-                        <a>
-                          <i className="fab">
-                            <FaFacebookF />
-                          </i>
-                        </a>
-                      </Link>
-                    </li>
-                  </ul>
                 </div>
                 <div className="team-info mt-4 text-center">
                   <h5 className="h6 mb-1">{team.name} </h5>
