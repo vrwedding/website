@@ -12,7 +12,7 @@ const HeroSectionThree = () => {
             <div className="hero-content-wrap">
               <HeroTitle
                 title="Virtual Reality memory of your special day that will last a lifetime"
-                desc="With VR Weddings, you can attend your wedding whenever you want, and relive the memories whenever you please."
+                desc="VR Weddings enable the capturing of your wedding with a cutting-edge technology, giving you the ability to revisit the special moments at any time."
               />
               <div
                 className="action-btns text-center pt-4"
@@ -23,7 +23,7 @@ const HeroSectionThree = () => {
                   <a className="btn btn-primary me-3"> Request Demo</a>
                 </Link>
                 <Link href="/contact-us">
-                  <a className="btn btn-outline-primary">Traning</a>
+                  <a className="btn btn-outline-primary">Training</a>
                 </Link>
               </div>
             </div>

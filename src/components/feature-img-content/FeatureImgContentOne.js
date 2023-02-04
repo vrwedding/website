@@ -10,18 +10,24 @@ const FeatureImgContentOne = () => {
           <div className="row justify-content-lg-between align-items-center">
             <div className="col-lg-5 col-12">
               <div className="why-choose-content">
-                <h2>Advanced Analytics, Understand Business</h2>
+                <h2>Make your wedding a beautiful memory</h2>
                 <p>
-                  Distinctively promote parallel vortals with ubiquitous
-                  e-markets. Proactively benchmark turnkey optimize
-                  next-generation strategic leadership without resource sucking
-                  ideas.
+                  Your wedding day is an unforgettable milestone, a
+                  once-in-a-lifetime celebration that deserves to be captured in
+                  all its glory. Traditional photography and videography may
+                  capture some of the magic, but they only offer a limited
+                  perspective. Thats why Virtual Reality is here to take your
+                  wedding memories to new heights! Imagine experiencing the full
+                  360-degree view of your special day, surrounded by the sights,
+                  sounds, and emotions of each unforgettable moment.
                 </p>
                 <p>
-                  Distinctively promote parallel vortals with ubiquitous
-                  e-markets. Proactively benchmark turnkey optimize
-                  next-generation strategic leadership without resource sucking
-                  ideas.
+                  With VR, every detail, every movement, and every feeling is
+                  captured in stunning detail, inviting you to relive the
+                  memories with vivid accuracy. Dont settle for a limited
+                  perspective, choose Virtual Reality to preserve the most
+                  cherished moments of your life in a way that will take your
+                  breath away and leave you forever in awe.
                 </p>
                 <a
                   href="about-us.html"
@@ -54,16 +60,21 @@ const FeatureImgContentOne = () => {
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-5 col-12 order-lg-1">
               <div className="feature-img-content">
-                <h2>Match Everything to Brand and Style</h2>
+                <h2>How virtual reality works?</h2>
                 <p>
-                  Intrinsicly pontificate reliable metrics with enabled.
-                  Holisticly maintain clicks-and-mortar manufactured products
-                  empower viral customer service through resource deliverables.
+                  Step into a world of endless memories with Virtual Reality!
+                  Say goodbye to the limitations of traditional videography and
+                  embrace a breathtaking 360-degree experience. With multiple
+                  cameras capturing every moment from every angle, every giggle,
+                  every hug, and every cherished memory is recorded in vivid
+                  detail.
                 </p>
                 <p>
-                  Customer service through resource pontificate reliable metrics
-                  with enabled expedite resource maximizing information maintain
-                  manufactured products.
+                  And the magic doesnt stop there! Our advanced VR technology
+                  undergoes a rigorous post-production process to bring you the
+                  ultimate VR wedding experience. So get ready to immerse
+                  yourself in memories that will last a lifetime and relive your
+                  special day over and over again in stunning Virtual Reality!
                 </p>
 
                 <a
@@ -97,18 +108,19 @@ const FeatureImgContentOne = () => {
           <div className="row justify-content-lg-between align-items-center">
             <div className="col-lg-5 col-12">
               <div className="why-choose-content">
-                <h2>Advanced Analytics, Understand Business</h2>
+                <h2>You can relive your wedding anytime</h2>
                 <p>
-                  Distinctively promote parallel vortals with ubiquitous
-                  e-markets. Proactively benchmark turnkey optimize
-                  next-generation strategic leadership without resource sucking
-                  ideas.
+                  Revisit your special day anytime, anywhere with Virtual
+                  Reality! With 360-degree video capturing every detail of your
+                  wedding, simply slip on a VR headset and transport yourself
+                  back in time.
                 </p>
                 <p>
-                  Distinctively promote parallel vortals with ubiquitous
-                  e-markets. Proactively benchmark turnkey optimize
-                  next-generation strategic leadership without resource sucking
-                  ideas.
+                  No need to worry if you dont have a camera, as VR technology
+                  is becoming more accessible every day, soon to be as
+                  ubiquitous as mobile phones. And with platforms like Facebook,
+                  YouTube, and more already supporting VR content, reliving your
+                  cherished memories has never been easier!
                 </p>
                 <a
                   href="about-us.html"

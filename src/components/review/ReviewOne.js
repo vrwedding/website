@@ -29,8 +29,11 @@ const ReviewOne = () => {
               />
               <div className="review-info-content mt-2">
                 <p className="mb-4">
-                  4.9 out of 5 stars maintainable disseminate parallel team
-                  effective standards communities.
+                  In the 1840s, photography made its debut as a tool to
+                  immortalize the timeless memories of weddings. With each
+                  flash, the art of capturing life's most precious moments was
+                  born, forever changing the way we preserve and relive our
+                  memories.{" "}
                 </p>
               </div>
             </div>
@@ -49,8 +52,11 @@ const ReviewOne = () => {
               />
               <div className="review-info-content mt-2">
                 <p className="mb-4">
-                  2k+ five star reviews excellent convergence without
-                  professional methods of empowerment.
+                  Took art of creating memories to soaring new heights by
+                  providing the ability to capture every moment in front of the
+                  lens. A window into the past, a visual diary of the moments
+                  that matter most, and a legacy to pass down to future
+                  generations.
                 </p>
               </div>
             </div>
@@ -69,8 +75,10 @@ const ReviewOne = () => {
               />
               <div className="review-info-content mt-2">
                 <p className="mb-4">
-                  4.9 out of 5 stars maintainable disseminate parallel team
-                  effective standards communities.
+                  Takes memory preservation to a whole new dimension by allowing
+                  you to capture every moment in stunning 360 degrees. Imagine
+                  being transported back to your special day, surrounded by the
+                  sights and sounds of that unforgettable moment.
                 </p>
               </div>
             </div>
