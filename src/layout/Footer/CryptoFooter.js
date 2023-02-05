@@ -4,11 +4,8 @@ import React from "react";
 import {
   FaFacebookF,
   FaTwitter,
-  FaDribbble,
-  FaBehance,
   FaLinkedin,
   FaWhatsapp,
-  FaVoicemail,
   FaPhone,
 } from "react-icons/fa";
 

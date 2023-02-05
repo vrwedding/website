@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
-import ServiceForm from './ServiceForm';
+import React from "react";
+import ServiceForm from "./ServiceForm";
 
 const SingleServiceRegister = () => {
   return (
@@ -9,10 +9,10 @@ const SingleServiceRegister = () => {
         <div className="row align-items-center justify-content-between">
           <div className="col-xl-5 col-lg-5 col-md-12 order-1 order-lg-0">
             <div className="testimonial-tab-slider-wrap mt-5 mt-lg-0 mt-xl-0">
-              <h2 className="text-white">Start Your Project with Us</h2>
+              <h2 className="text-white">Schedule Demo</h2>
               <p>
-                Whatever your goal or project size we will handel it utilize
-                standards compliant. We hope you will be 100% satisfied.
+                Ready to experience the magic of capturing your special day in a
+                whole new way? Look no further!
               </p>
               <hr />
               <div
@@ -26,111 +26,18 @@ const SingleServiceRegister = () => {
                 >
                   <blockquote className="blockquote">
                     <em>
-                    &quot;Globally actualize economically sound alignments before
-                      tactical systems. Rapidiously actualize processes
-                      technically sound infomediaries. Holisticly pursue team
-                      building catalysts htmlFor change before team driven
-                      products.&quot;
+                      Our Virtual Reality Wedding Coverage offers a truly
+                      immersive experience that will take your memories to the
+                      next level. From the small laughs to the big moments,
+                      everything will be captured in 360 degrees for you to
+                      relive time and time again. We invite you to join us for a
+                      demo to see just how incredible this technology truly is.
+                      So why wait? Schedule your demo today and get ready to
+                      experience your wedding in a whole new light!"
                     </em>
                   </blockquote>
-                  <div className="author-info mt-3">
-                    <span className="h6">Veronica P. Byrd</span>
-                    <span className="d-block small">Veterinary technician</span>
-                  </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="testimonial-tab-2"
-                  role="tabpanel"
-                >
-                  <blockquote className="blockquote">
-                    <em>
-                    &quot;Synergistically evisculate market positioning technology
-                      vis-a-vis team driven innovation. Phosfluorescently morph
-                      tactical communities htmlFor superior applications.
-                      Distinctively pontificate resource-leveling infomediaries
-                      and parallel models.&quot;
-                    </em>
-                  </blockquote>
-                  <div className="author-info mt-3">
-                    <span className="h6">Raymond H. Gilbert</span>
-                    <span className="d-block small">Forest fire inspector</span>
-                  </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="testimonial-tab-3"
-                  role="tabpanel"
-                >
-                  <blockquote className="blockquote">
-                    <em>
-                    &quot;Professionally myocardinate corporate e-commerce through
-                      alternative functionalities. Compellingly matrix
-                      distributed convergence with goal-oriented synergy.
-                      Professionally embrace interactive opportunities through
-                      parallel innovation.&quot;
-                    </em>
-                  </blockquote>
-                  <div className="author-info mt-3">
-                    <span className="h6">Donna R. Book</span>
-                    <span className="d-block small">Extractive engineer</span>
-                  </div>
                 </div>
               </div>
-              <ul
-                className="nav nav-pills mb-0 testimonial-tab-indicator mt-5"
-                id="pills-tab"
-                role="tablist"
-              >
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link active"
-                    data-bs-toggle="pill"
-                    data-bs-target="#testimonial-tab-1"
-                    type="button"
-                    role="tab"
-                  >
-                    <img
-                      src="/testimonial/1.jpg"
-                      alt="testimonial"
-                      width="55"
-                      className="img-fluid rounded-circle"
-                    />
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link"
-                    data-bs-toggle="pill"
-                    data-bs-target="#testimonial-tab-2"
-                    type="button"
-                    role="tab"
-                  >
-                    <img
-                      src="/testimonial/4.jpg"
-                      alt="testimonial"
-                      width="55"
-                      className="img-fluid rounded-circle"
-                    />
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link"
-                    data-bs-toggle="pill"
-                    data-bs-target="#testimonial-tab-3"
-                    type="button"
-                    role="tab"
-                  >
-                    <img
-                      src="/testimonial/6.jpg"
-                      alt="testimonial"
-                      width="55"
-                      className="img-fluid rounded-circle"
-                    />
-                  </button>
-                </li>
-              </ul>
             </div>
           </div>
           <ServiceForm />

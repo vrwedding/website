@@ -1,6 +1,5 @@
-import React from 'react';
-import Link from 'next/link';
-import { FaDribbble, FaFacebook, FaGithub, FaTwitter } from 'react-icons/fa';
+import React from "react";
+import Link from "next/link";
 
 const FooterShort = () => {
   return (
@@ -9,45 +8,19 @@ const FooterShort = () => {
       <div className="footer-bottom bg-dark text-white py-4">
         <div className="container">
           <div className="row justify-content-between align-items-center">
-            <div className="col-md-7 col-lg-7">
-              <div className="copyright-text">
-                <p className="mb-lg-0 mb-md-0">
-                  &copy; 2022 Quiety Rights Reserved. Designed By{' '}
-                  <Link href="https://themetags.com/">
-                    <a className="text-decoration-none">ThemeTags</a>
-                  </Link>
+            <div className="col-lg-6 col-md-7">
+              <div className="crypto-footer-left">
+                <p className="m-0 text-center text-lg-start">
+                  Copyright@VR Weddings. 2023. All rights reserved.
                 </p>
               </div>
             </div>
-            <div className="col-md-4 col-lg-4">
-              <div className="footer-single-col text-start text-lg-end text-md-end">
-                <ul className="list-unstyled list-inline footer-social-list mb-0">
+            <div className="col-lg-6 col-md-5">
+              <div className="crypto-footer-right text-center text-md-end">
+                <ul className="list-unstyled mt-3 mt-md-0">
                   <li className="list-inline-item">
-                    <Link href="#">
-                      <a>
-                        <FaFacebook />
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="list-inline-item">
-                    <Link href="#">
-                      <a>
-                        <FaTwitter />
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="list-inline-item">
-                    <Link href="#">
-                      <a>
-                        <FaDribbble />
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="list-inline-item">
-                    <Link href="#">
-                      <a>
-                        <FaGithub />
-                      </a>
+                    <Link href="/help-center">
+                      <a className="text-decoration-none">Download Brochure</a>
                     </Link>
                   </li>
                 </ul>

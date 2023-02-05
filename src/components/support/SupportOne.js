@@ -46,7 +46,7 @@ const SupportOne = ({ className }) => {
                     <a className="btn btn-primary">Talk with Us</a>
                   </Link>
                   <a
-                    href="#!"
+                    href="https://www.youtube.com/watch?v=9jsCOGEV8mg"
                     onClick={() => setOpen(true)}
                     className="text-white text-decoration-none popup-youtube d-inline-flex align-items-center watch-now-btn ms-lg-3 ms-md-3 mt-3 mt-lg-0"
                   >
@@ -56,14 +56,6 @@ const SupportOne = ({ className }) => {
                     </span>
                   </a>
                 </div>
-                <ul className="nav justify-content-center subscribe-feature-list mt-4">
-                  <li className="nav-item">
-                    <span>
-                      <FaRegCheckCircle className="far me-2 text-primary" />
-                      100% Guarantee Satisfaction
-                    </span>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>

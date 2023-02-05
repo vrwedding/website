@@ -1,24 +1,23 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import dynamic from 'next/dynamic';
-import { FaFacebook, FaGithub, FaDribbble, FaTwitter } from 'react-icons/fa';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import dynamic from "next/dynamic";
 
 import {
   footerPrimaryPages,
   footerPages,
   footerTemplate,
-} from '../../utils/data';
-import Rating from '../../components/common/Rating';
+} from "../../utils/data";
+import Rating from "../../components/common/Rating";
 
 const Footer = ({ footerLight, style, footerGradient }) => {
   return (
     <>
-      <footer className='footer-section'>
-          <div
-          className={`footer-top ptb-120 ${footerLight ? 'footer-light' : 'bg-dark'} ${
-            footerGradient ? 'bg-gradient' : ''
-          }  text-white`}
+      <footer className="footer-section">
+        <div
+          className={`footer-top ptb-120 ${
+            footerLight ? "footer-light" : "bg-dark"
+          } ${footerGradient ? "bg-gradient" : ""}  text-white`}
           style={style}
         >
           <div className="container">
@@ -81,7 +80,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                           <li key={i + 1}>
                             <Link href={primaryPage.href}>
                               <a className="text-decoration-none">
-                                {' '}
+                                {" "}
                                 {primaryPage.title}
                               </a>
                             </Link>
@@ -98,7 +97,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                           <li key={i + 1}>
                             <Link href={page.href}>
                               <a className="text-decoration-none">
-                                {' '}
+                                {" "}
                                 {page.title}
                               </a>
                             </Link>
@@ -115,7 +114,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                           <li key={i + 1}>
                             <Link href={template.href}>
                               <a className="text-decoration-none">
-                                {' '}
+                                {" "}
                                 {template.title}
                               </a>
                             </Link>
@@ -129,66 +128,38 @@ const Footer = ({ footerLight, style, footerGradient }) => {
             </div>
           </div>
         </div>
-          
 
-          <div
-            className={`footer-bottom ${
-              footerLight ? 'footer-light' : 'bg-dark'
-            } ${footerGradient ? 'bg-gradient' : ''} text-white py-4`}
-          >
-            <div className="container">
-              <div className="row justify-content-between align-items-center">
-                <div className="col-md-7 col-lg-7">
-                  <div className="copyright-text">
-                    <p className="mb-lg-0 mb-md-0">
-                      &copy; 2022 Quiety Rights Reserved. Designed By{' '}
-                      <a
-                        href="https://themetags.com/"
-                        className="text-decoration-none"
-                      >
-                        ThemeTags
-                      </a>
-                    </p>
-                  </div>
+        <div
+          className={`footer-bottom ${
+            footerLight ? "footer-light" : "bg-dark"
+          } ${footerGradient ? "bg-gradient" : ""} text-white py-4`}
+        >
+          <div className="container">
+            <div className="row justify-content-between align-items-center">
+              <div className="col-lg-6 col-md-7">
+                <div className="crypto-footer-left">
+                  <p className="m-0 text-center text-lg-start">
+                    Copyright@VR Weddings. 2023. All rights reserved.
+                  </p>
                 </div>
-                <div className="col-md-4 col-lg-4">
-                  <div className="footer-single-col text-start text-lg-end text-md-end">
-                    <ul className="list-unstyled list-inline footer-social-list mb-0">
-                      <li className="list-inline-item">
-                        <Link href="#">
-                          <a>
-                            <FaFacebook />
-                          </a>
-                        </Link>
-                      </li>
-                      <li className="list-inline-item">
-                        <Link href="#">
-                          <a>
-                            <FaTwitter />
-                          </a>
-                        </Link>
-                      </li>
-                      <li className="list-inline-item">
-                        <Link href="#">
-                          <a>
-                            <FaDribbble />
-                          </a>
-                        </Link>
-                      </li>
-                      <li className="list-inline-item">
-                        <Link href="#">
-                          <a>
-                            <FaGithub />
-                          </a>
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
+              </div>
+              <div className="col-lg-6 col-md-5">
+                <div className="crypto-footer-right text-center text-md-end">
+                  <ul className="list-unstyled mt-3 mt-md-0">
+                    <li className="list-inline-item">
+                      <Link href="/help-center">
+                        <a className="text-decoration-none">
+                          Download Brochure
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-        </footer>
+        </div>
+      </footer>
     </>
   );
 };
