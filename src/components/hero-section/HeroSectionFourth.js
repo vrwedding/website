@@ -46,7 +46,7 @@ const HeroSectionFourth = ({ bgDark }) => {
                   <li className="nav-item">
                     <span className="ms-0">
                       <FaRegCheckCircle className="far me-2 text-primary" />
-                      Earn min 20,000 INR per intro
+                      Earn 20,000 INR per intro
                     </span>
                   </li>
                   <li className="nav-item">

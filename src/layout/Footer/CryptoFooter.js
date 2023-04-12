@@ -57,6 +57,13 @@ const CryptoFooter = () => {
                     </Link>
                   </li>
                   <li className="list-inline-item px-lg-4 px-3">
+                    <Link href="/refferal">
+                      <a className="text-decoration-none fw-semibold text-white">
+                        Refferal
+                      </a>
+                    </Link>
+                  </li>
+                  <li className="list-inline-item px-lg-4 px-3">
                     <Link href="/about-us">
                       <a className="text-decoration-none fw-semibold text-white">
                         Franchise
@@ -64,16 +71,16 @@ const CryptoFooter = () => {
                     </Link>
                   </li>
                   <li className="list-inline-item px-lg-4 px-3">
-                    <Link href="/about-us">
+                    <Link href="https://blog.vrwedding.in">
                       <a className="text-decoration-none fw-semibold text-white">
-                        Team
+                        Blog
                       </a>
                     </Link>
                   </li>
                   <li className="list-inline-item px-lg-4 px-3">
                     <Link href="/about-us">
                       <a className="text-decoration-none fw-semibold text-white">
-                        Contact Us
+                        Contact
                       </a>
                     </Link>
                   </li>

@@ -72,7 +72,7 @@ const Navbar = ({ navDark, classOption }) => {
           <div className="clearfix"></div>
           <div className="collapse navbar-collapse justify-content-center">
             <ul className="nav col-12 col-md-auto justify-content-center main-menu">
-              <li>
+              {/* <li>
                 <Link href="about-us">
                   <a className="nav-link">About</a>
                 </Link>
@@ -81,7 +81,7 @@ const Navbar = ({ navDark, classOption }) => {
                 <Link href="how-it-works">
                   <a className="nav-link">How it works?</a>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="training">
                   <a className="nav-link">Training</a>
@@ -89,12 +89,28 @@ const Navbar = ({ navDark, classOption }) => {
               </li>
               <li>
                 <Link href="refferal">
-                  <a className="nav-link">Refferal Opportunity</a>
+                  <a className="nav-link">Refferal</a>
                 </Link>
               </li>
               <li>
-                <Link href="blogs">
-                  <a className="nav-link">Blogs</a>
+                <Link href="franchise">
+                  <a heref className="nav-link">Franchise</a>
+                </Link>
+              </li>
+              
+              <li>
+                <Link href="https://blog.vrweddin.in">
+                  <a heref className="nav-link">Blogs</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="request-demo">
+                  <a heref className="nav-link">Contact</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://blog.vrweddin.in">
+                  <a heref className="nav-link">Brochure</a>
                 </Link>
               </li>
             </ul>
