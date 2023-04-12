@@ -99,7 +99,7 @@ const Navbar = ({ navDark, classOption }) => {
               </li>
               
               <li>
-                <Link href="https://blog.vrweddin.in">
+                <Link href="https://blog.vrwedding.in">
                   <a heref className="nav-link">Blogs</a>
                 </Link>
               </li>
@@ -109,7 +109,7 @@ const Navbar = ({ navDark, classOption }) => {
                 </Link>
               </li>
               <li>
-                <Link href="https://blog.vrweddin.in">
+                <Link href="https://blog.vrwedding.in">
                   <a heref className="nav-link">Brochure</a>
                 </Link>
               </li>
