@@ -23,6 +23,26 @@ const ServiceForm = () => {
               </div>
               <div className="col-sm-6">
                 <div className="input-group mb-3">
+                  <input
+                    type="text"
+                    className="form-control"
+                    placeholder="Mobile Number"
+                    aria-label="mobile-number"
+                  />
+                </div>
+              </div>
+              <div className="col-sm-6">
+                <div className="input-group mb-3">
+                  <input
+                    type="email"
+                    className="form-control"
+                    placeholder="Email Address"
+                    aria-label="email"
+                  />
+                </div>
+              </div>
+              <div className="col-sm-6">
+                <div className="input-group mb-3">
                   <select
                     className="form-control form-select"
                     name="Wedding Status"
@@ -44,26 +64,7 @@ const ServiceForm = () => {
                   </select>
                 </div>
               </div>
-              <div className="col-sm-6">
-                <div className="input-group mb-3">
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Mobile Number"
-                    aria-label="mobile-number"
-                  />
-                </div>
-              </div>
-              <div className="col-sm-6">
-                <div className="input-group mb-3">
-                  <input
-                    type="email"
-                    className="form-control"
-                    placeholder="Email Address"
-                    aria-label="email"
-                  />
-                </div>
-              </div>
+
               <div className="col-sm-6">
                 <div className="input-group mb-3">
                   <select
