@@ -23,12 +23,25 @@ const ServiceForm = () => {
               </div>
               <div className="col-sm-6">
                 <div className="input-group mb-3">
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Profession"
-                    aria-label="Profession"
-                  />
+                  <select
+                    className="form-control form-select"
+                    name="Wedding Status"
+                    id="wedding"
+                    required=""
+                    data-msg="Please select your country."
+                  >
+                    <option
+                      value="Jan"
+                      aria-selected
+                      style={{ display: "none" }}
+                    >
+                      How did you hear?
+                    </option>
+                    <option value="Feb">Friends</option>
+                    <option value="Mar">Google</option>
+                    <option value="Mar">Linkedin</option>
+                    <option value="Apr">Other</option>
+                  </select>
                 </div>
               </div>
               <div className="col-sm-6">
@@ -60,10 +73,10 @@ const ServiceForm = () => {
                     required=""
                     data-msg="Please select your country."
                   >
-                    <option value="Jan">Yay Engaged!</option>
-                    <option value="Feb">Dates Locked</option>
-                    <option value="Mar">Planning Wedding</option>
-                    <option value="Apr">Other</option>
+                    <option value="Yay Engaged!">Yay Engaged!</option>
+                    <option value="Dates Locked">Dates Locked</option>
+                    <option value="Planning Wedding">Planning Wedding</option>
+                    <option value="Other">Other</option>
                   </select>
                 </div>
               </div>
