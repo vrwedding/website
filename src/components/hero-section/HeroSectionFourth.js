@@ -1,9 +1,61 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useState } from "react";
 import { FaRegCheckCircle } from "react-icons/fa";
 import HeroTitle from "../common/HeroTitle";
+import axios from "axios";
+import HCaptcha from "@hcaptcha/react-hcaptcha";
+import AppConflig from "./App.conflig";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const HeroSectionFourth = ({ bgDark }) => {
+  const [token, setToken] = useState("");
+  const success = () => toast("Email sent successfully.!", { theme: "dark" });
+  const error = () => toast("Please fill tha Captcha.!", { theme: "dark" });
+  const error1 = () =>
+    toast("Failed to send email. Please try again later.!", { theme: "dark" });
+
+  const handleSubmit = (event) => {
+    const formData = new FormData(event.target);
+    const MobileNumber = formData.get("number");
+    event.preventDefault();
+
+    if (token) {
+      const data = {
+        username: "AKIAVG3KVGIQ5K5C54EV",
+        password: "BGI30r7ViaHz5pMhtMjkqw/GDeAD4S3McLoMJltIaaqF",
+        server_addr: "email-smtp.eu-north-1.amazonaws.com",
+        server_port: "587",
+        destination_email: "shivdeep.catax@gmail.com",
+        sender_email: "vrwedding@catax.me",
+        subject: "Refferal Request",
+        body: `
+      VR Wedding - Refferal Request
+   
+      Mobile Number: ${MobileNumber}
+   
+      Message: I want to register as refferal for VR Wedding`,
+      };
+      axios
+        .post("https://emailsender.catax.me/sendEmail", data)
+        .then((Response) => {
+          console.log(Response);
+          event.target.reset();
+          success(); // Fix typo here
+        })
+        .catch((error) => {
+          console.log("Error response data:", error.response.data);
+          console.log("Error response status:", error.response.status);
+          console.log("Error message:", error.message);
+          console.log("Error response data:", error.response);
+
+          error1();
+        });
+    } else {
+      error();
+    }
+  };
+
   return (
     <section
       className={`hero-section ptb-120 ${bgDark ? "bg-dark" : "bg-white"}`}
@@ -24,22 +76,30 @@ const HeroSectionFourth = ({ bgDark }) => {
                 <form
                   id="subscribe-form"
                   name="email-form"
-                  className="hero-subscribe-form d-block d-lg-flex d-md-flex"
+                  className=""
+                  onSubmit={handleSubmit}
                 >
-                  <input
-                    type="email"
-                    className="form-control me-2"
-                    name="Email"
-                    data-name="Email"
-                    placeholder="Enter mobile number"
-                    id="email-address"
-                    required=""
-                  />
-                  <input
-                    type="button"
-                    value="Make me Affiliate"
-                    data-wait="Please wait..."
-                    className="btn btn-primary mt-3 mt-lg-0 mt-md-0"
+                  <div className="hero-subscribe-form d-block d-lg-flex d-md-flex mb-3">
+                    <input
+                      type="number"
+                      className="form-control me-2"
+                      name="number"
+                      data-name="Email"
+                      placeholder="Enter mobile number"
+                      id="email-address"
+                      required
+                    />
+                    <input
+                      type="submit"
+                      value="Make me Affiliate"
+                      data-wait="Please wait..."
+                      className="btn btn-primary mt-3 mt-lg-0 mt-md-0"
+                    />
+                  </div>
+                  <ToastContainer position="top-center" />
+                  <HCaptcha
+                    sitekey={AppConflig.hCaptchaSiteToken}
+                    onVerify={(token) => setToken(token)}
                   />
                 </form>
                 <ul className="nav subscribe-feature-list mt-3">

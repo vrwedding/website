@@ -1,20 +1,25 @@
 // import '@assets/css/bootstrap.min.css';
-import '@assets/scss/main.scss';
-import '@assets/fonts/fontawesome-all.min.css';
+import "@assets/scss/main.scss";
+import "@assets/fonts/fontawesome-all.min.css";
 
 // Import Swiper style
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import Script from 'next/script'
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import Script from "next/script";
 
 //Modal Video
-import 'react-modal-video/scss/modal-video.scss';
-import Head from 'next/head';
-import { Fragment } from 'react';
+import "react-modal-video/scss/modal-video.scss";
+import Head from "next/head";
+import { Fragment } from "react";
+import ReactGA from "react-ga4";
 
 function MyApp({ Component, pageProps }) {
+  const Gid = "G-JY08KJZ13G";
+  ReactGA.initialize(Gid);
+  // ReactGA.pageview(document.location.pathname);
+
   return (
     <Fragment>
       <Script
@@ -27,8 +32,6 @@ function MyApp({ Component, pageProps }) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover"
         />
-
-
       </Head>
       <Component {...pageProps} />
     </Fragment>

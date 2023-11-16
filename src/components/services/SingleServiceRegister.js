@@ -4,7 +4,7 @@ import ServiceForm from "./ServiceForm";
 
 const SingleServiceRegister = () => {
   return (
-    <section className="sign-up-in-section bg-dark ptb-120 position-relative overflow-hidden">
+    <section className="sign-up-in-section bg-dark  position-relative overflow-hidden">
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-xl-5 col-lg-5 col-md-12 order-1 order-lg-0">
