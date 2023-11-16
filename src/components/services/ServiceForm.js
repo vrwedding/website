@@ -31,7 +31,7 @@ const ServiceForm = () => {
         password: "BGI30r7ViaHz5pMhtMjkqw/GDeAD4S3McLoMJltIaaqF",
         server_addr: "email-smtp.eu-north-1.amazonaws.com",
         server_port: "587",
-        destination_email: "shivdeep.catax@gmail.com",
+        destination_email: "gewgawrav@gmail.com",
         sender_email: "vrwedding@catax.me",
         subject: "VR Wedding Submission Form",
         body: `
