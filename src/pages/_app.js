@@ -13,13 +13,8 @@ import Script from "next/script";
 import "react-modal-video/scss/modal-video.scss";
 import Head from "next/head";
 import { Fragment } from "react";
-import ReactGA from "react-ga4";
 
 function MyApp({ Component, pageProps }) {
-  const Gid = "G-JY08KJZ13G";
-  ReactGA.initialize(Gid);
-  // ReactGA.pageview(document.location.pathname);
-
   return (
     <Fragment>
       <Script
