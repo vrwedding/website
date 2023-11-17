@@ -8,7 +8,7 @@ import {
   FaWhatsapp,
   FaPhone,
 } from "react-icons/fa";
-
+import { MdEmail } from "react-icons/md";
 const CryptoFooter = () => {
   return (
     <footer className="bg-dark-black crypto-footer pt-60">
@@ -96,35 +96,35 @@ const CryptoFooter = () => {
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#/">
+                  <a href="mailto:gewgawrav@gmail.com">
                     <i>
-                      <FaTwitter />
+                      <MdEmail />
                     </i>
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#/">
+                  <a href="https://www.linkedin.com/company/virtual-reality-wedding/">
                     <i>
                       <FaLinkedin />
                     </i>
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#/">
+                  <a href="https://twitter.com/gewgawrav">
                     <i>
                       <FaTwitter />
                     </i>
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#/">
+                  <a href="tel:+91-8770467824">
                     <i>
                       <FaPhone />
                     </i>
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#/">
+                  <a href="https://api.whatsapp.com/send?phone=918770467824&text=Came%20across%20VR%20Wedding%20website%20and%20sounds%20amazing.%20Interested%20in%20knowing%20more%20about%20Virtual%20Reality%20Wedding%20services!%20%20Can%20you%20share%20more%20information">
                     <i>
                       <FaWhatsapp />
                     </i>
@@ -149,8 +149,10 @@ const CryptoFooter = () => {
               <div className="crypto-footer-right text-center text-md-end">
                 <ul className="list-unstyled mt-3 mt-md-0">
                   <li className="list-inline-item">
-                    <Link href="/help-center">
-                      <a className="text-decoration-none">Download Brochure</a>
+                    <Link href="/sample.pdf" download="/sample.pdf">
+                      <a className="text-decoration-none" target="_blank">
+                        Download Brochure
+                      </a>
                     </Link>
                   </li>
                 </ul>

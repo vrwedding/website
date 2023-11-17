@@ -149,7 +149,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                     <li className="list-inline-item">
                       <Link href="/help-center">
                         <a className="text-decoration-none">
-                          Download Brochure
+                          Download Brochure1234
                         </a>
                       </Link>
                     </li>
