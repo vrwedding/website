@@ -17,7 +17,7 @@ const ServiceForm = () => {
     const MobileNumber = formData.get("mobile-number");
     const Email = formData.get("email");
     const WeddingStatus = formData.get("Wedding Status");
-    const Purpose = formData.get("Purpose");
+    const Purpose = formData.get("purpose");
     const MonthOfWedding = formData.get("Month of Wedding");
     const budget = formData.get("budget");
     const country = formData.get("country");
@@ -31,7 +31,7 @@ const ServiceForm = () => {
         password: "BGI30r7ViaHz5pMhtMjkqw/GDeAD4S3McLoMJltIaaqF",
         server_addr: "email-smtp.eu-north-1.amazonaws.com",
         server_port: "587",
-        destination_email: "gewgawrav@gmail.com",
+        destination_email: "shivdeep.catax@gmail.com",
         sender_email: "vrwedding@catax.me",
         subject: "VR Wedding Submission Form",
         body: `
@@ -42,7 +42,7 @@ const ServiceForm = () => {
     Country: ${country}
     Company: ${WeddingStatus}
     Purpose: ${Purpose}
-    MonthOfWedding: ${MonthOfWedding}
+    Month Of Wedding: ${MonthOfWedding}
     budget: ${budget}
     City: ${City}
 
