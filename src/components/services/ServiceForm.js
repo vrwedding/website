@@ -270,7 +270,7 @@ const ServiceForm = () => {
               <div className=" mt-4">
                 <HCaptcha
                   sitekey={AppConflig.hCaptchaSiteToken}
-                  onVerify={(token) => setToken(!token)}
+                  onVerify={(token) => setToken(token)}
                 />
               </div>
               <div className="col-12">
